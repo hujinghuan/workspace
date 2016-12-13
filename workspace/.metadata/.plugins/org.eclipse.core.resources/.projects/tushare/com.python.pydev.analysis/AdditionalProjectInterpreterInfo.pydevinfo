@@ -1,0 +1,17 @@
+-- VERSION_4
+-- START DISKCACHE
+D:\advance\eclipse\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\tushare\com.python.pydev.analysis\v2_indexcache
+deposit.deposit|1480569979051|D:\advance\eclipse\workspace\tushare\src\deposit\deposit.py
+deposit.__init__|1480569625357|D:\advance\eclipse\workspace\tushare\src\deposit\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=deposit.deposit
+-- END DICTIONARY
+-- START TREE 1
+1
+df|1|df!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

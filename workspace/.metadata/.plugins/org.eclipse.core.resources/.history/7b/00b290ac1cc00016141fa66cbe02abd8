@@ -1,0 +1,17 @@
+#!/usr/bin/python  
+# -*- coding: utf-8 -*-  
+
+'''
+Created on 2016年12月12日
+
+@author: Administrator
+'''
+
+from pandas_datareader import data as web
+import sympy
+
+DAX=web.DataReader(name='^GDAXI',data_source='yahoo',start='2010-1-1')
+print(DAX)
+
+a=sy.solve(x**2-1)
+print(a)

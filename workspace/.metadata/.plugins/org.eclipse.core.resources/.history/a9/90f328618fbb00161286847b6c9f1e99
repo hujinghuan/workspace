@@ -1,0 +1,13 @@
+#!/usr/bin/python  
+# -*- coding: utf-8 -*-  
+
+'''
+Created on 2016年12月6日
+
+@author: Administrator
+'''
+import urllib2
+
+response=urllib2.urlopen('www.fishc.com')
+html=response.read()
+print()

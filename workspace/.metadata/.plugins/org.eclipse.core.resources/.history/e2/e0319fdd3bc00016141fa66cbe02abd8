@@ -1,0 +1,28 @@
+#!/usr/bin/python  
+# -*- coding: utf-8 -*-  
+
+'''
+Created on 2016年12月12日
+
+@author: Administrator
+'''
+
+from pandas_datareader import data as web
+import  random
+from _ast import Num
+
+'''
+DAX=web.DataReader(name='^GDAXI',data_source='yahoo',start='2010-1-1')
+print(DAX)
+'''
+
+def M_C(num):
+    count=0;
+    for i in range(1,num+1):
+        X=random.uniform(0,1)
+        Y=random.uniform(0,1)
+        if X**2+Y**2<1:
+            count+=1
+    return 4.0*count/num
+
+print(M_C(100000))
