@@ -1,0 +1,25 @@
+#!/usr/bin/python  
+# -*- coding: utf-8 -*-  
+
+
+'''
+Created on 2016年12月13日
+
+@author: Administrator
+'''
+
+import pandas as pd
+import numpy as np
+import random
+
+a=np.random.standard_normal((9,4))
+a.round(6)
+# print(a)
+
+df=pd.DataFrame(a)
+df.columns=[['No1','No2','No3','No4']]
+dates=pd.date_range('2015-1-29',periods=9,freq='M')
+#print(dates)
+
+df.index=dates
+print(df)

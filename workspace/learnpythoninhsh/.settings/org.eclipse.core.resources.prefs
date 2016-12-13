@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+encoding//Finance/finance/TimeSeries.py=utf-8
 encoding//Finance/finance/__init__.py=utf-8
 encoding//Finance/finance/finance.py=utf-8
 encoding//Finance/finance/stock.py=utf-8
@@ -35,5 +36,3 @@ encoding//src/TimeSeries/readfiletest.py=utf-8
 encoding//src/combine_csv/__init__.py=utf-8
 encoding//src/learnurllib/__init__.py=utf-8
 encoding//src/learnurllib/tool.py=utf-8
-encoding//webcrawler/webcrawler/crawler_test.py=utf-8
-encoding//webcrawler/webcrawler/webcrawler.py=utf-8
